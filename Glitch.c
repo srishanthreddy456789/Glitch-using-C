@@ -13,7 +13,7 @@ int main()
     int currentHour = localTime->tm_hour;
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, 2) ;
-    printf("\n\t\t\t\t\tHello Kratak! ");
+    printf("\n\t\t\t\t\tHello Srishanth! ");
     if(currentHour >= 5 && currentHour < 12)
         printf("Good Morning");
     else if(currentHour >= 12 && currentHour <= 16)
